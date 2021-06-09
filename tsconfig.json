@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "target": "es5",
+    "downlevelIteration": true,
+    "rootDir": "src",
+    "outDir": "lib",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": [
+      "es2020"
+    ],
+    "sourceMap": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "newLine": "LF",
+    "composite": true,
+    /* enable all strict type-checking options */
+    /* Additional Checks */
+     "noImplicitReturns": true, /* Report error when not all code paths in function return a value. */
+     "noFallthroughCasesInSwitch": true, /* Report errors for fallthrough cases in switch statement. */
+     "noUnusedParameters": true  /* Report errors on unused parameters. */
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    ".git",
+    "node_modules"
+  ]
+}
